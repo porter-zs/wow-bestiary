@@ -1,0 +1,35 @@
+.nav-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: var(--navbar-height);
+    background-color: var(--navbar-colour);
+    display: flex;
+    place-content: center;
+}
+
+.nav-container {
+    display: flex;
+    padding: 0 1rem;
+    width: clamp(var(--min-width), 100%, var(--max-width));
+    place-content: center space-between;
+}
+
+.nav-title {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    min-width: 180px;
+    display: flex;
+    place-items: center;
+}
+.nav-title:hover {
+    color: var(--link-colour-hover);
+}
+
+.nav-menu {
+    gap: 0.5rem;
+    height: auto;
+    display: flex;
+    list-style: none;
+}

@@ -1,0 +1,12 @@
+.link-container {
+    display: flex;
+    place-items: center;
+}
+
+.link {
+    font-size: var(--font-size);
+    color: var(--link-colour);
+}
+.link:hover {
+    color: var(--link-colour-hover);
+}
